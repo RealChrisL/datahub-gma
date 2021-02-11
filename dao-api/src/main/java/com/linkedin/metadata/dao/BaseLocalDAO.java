@@ -93,7 +93,7 @@ public abstract class BaseLocalDAO<ASPECT_UNION extends UnionTemplate, URN exten
   // Always emit MAE on every update regardless if there's any actual change in value
   private boolean _alwaysEmitAuditEvent = false;
 
-  private boolean _emitAspectSpecificAuditEvent = false;
+  private boolean _emitAspectSpecificAuditEvent = true;
 
   private boolean _alwaysEmitAspectSpecificAuditEvent = false;
 
